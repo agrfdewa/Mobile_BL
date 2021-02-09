@@ -1,0 +1,21 @@
+Jawaban
+2 a dan b.
+Program akan crash atau force close, karena terjadi NumberFormatException, dimana string yang seharusnya terdapat isi atau element tidak dapat dihitung oleh fungsi, solusi dari ini ada memberi if else atau nilai awal pada tiap stringnya.
+
+2 c.
+Program berjalan normal.
+
+3. 
+- step over
+berfungsi untuk membaca line selanjutnya dari coding yang ingin di debug, dengan step over ini kita dapat melihat nilai yang terdapat pada sebuah variabel
+
+- step into
+berfungsi untuk masuk kedalam activity.java atau kompleknya bagaimana line ini memanggil id kepada layout atau activity lain.
+
+- step out
+berfungsi untuk kembali ke line yang ingin didebug, atau ke line sebelumnya setelah melakukan debug
+
+- resume
+melanjutkan debug otomatis tanpa melihat break point yang diberikan
+
+kesimpulan dari hasil debug ini variabel dan btn yang terdapat dalam ini memiliki value null pada awalnya dan mereka akan mencari apakah id yang terdapat di activity.java terdapat di layout atau activity lainnya jika ada mereka akan melakukan eksekusi terhadap value tersebut, namun jika tidak ada maka akan diberikan value null seperti yang telah diberikan diawal
