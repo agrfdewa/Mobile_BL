@@ -50,18 +50,20 @@ public class MainActivity extends AppCompatActivity {
 
         btnBrowse.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 String urlText = etUrl.getText().toString();
                 if(urlText.isEmpty()){
                     urlText = "http://www.umn.ac.id/";
                 }
                 Intent browseIntent = new Intent(Intent.ACTION_VIEW);
                 browseIntent.setData(Uri.parse(urlText));
+
                 if(browseIntent.resolveActivity(getPackageManager()) != null){
-                    startActivity(browseIntent);
+                      startActivity(browseIntent);
                 }
             }
         });
+
     }
 
 
