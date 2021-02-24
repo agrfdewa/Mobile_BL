@@ -24,6 +24,10 @@ public class CustomView extends View {
     private static final float TOLERANSI_SENTUH = 4;
     private boolean clear = false;
 
+    public CustomView(Context context) {
+        super(context);
+    }
+
     public CustomView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         paintKu = new Paint();
@@ -35,6 +39,8 @@ public class CustomView extends View {
         paintKu.setStrokeCap(Paint.Cap.ROUND);
         paintKu.setStrokeWidth(12);
         pathKu = new Path();}
+
+
 
     public void gantiBentuk(String bentukBaru) {
         bentuk = bentukBaru;
