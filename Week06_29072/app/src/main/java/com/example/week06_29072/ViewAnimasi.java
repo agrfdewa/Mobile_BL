@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator;
 
 public class ViewAnimasi extends View {
-    private static final int DURASI = 4000;
+    private static final int DURASI = 400;
     private static final long DELAY = 1000;
     private static final int PENGATURAN_WARNA = 5;
     private float mX;
