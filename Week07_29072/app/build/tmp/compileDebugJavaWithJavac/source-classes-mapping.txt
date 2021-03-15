@@ -1,0 +1,20 @@
+com/example/week07_29072/CameraActivity.java
+ com.example.week07_29072.CameraActivity
+ com.example.week07_29072.CameraActivity$1
+ com.example.week07_29072.CameraActivity$2
+com/example/week07_29072/VideoActivity.java
+ com.example.week07_29072.VideoActivity
+com/example/week07_29072/SumberVideo.java
+ com.example.week07_29072.SumberVideo
+com/example/week07_29072/DaftarVideoAdapter.java
+ com.example.week07_29072.DaftarVideoAdapter
+ com.example.week07_29072.DaftarVideoAdapter$ItemVideoViewHolder
+com/example/week07_29072/DetilVideoActivity.java
+ com.example.week07_29072.DetilVideoActivity
+ com.example.week07_29072.DetilVideoActivity$1
+com/example/week07_29072/MainActivity.java
+ com.example.week07_29072.MainActivity
+ com.example.week07_29072.MainActivity$1
+ com.example.week07_29072.MainActivity$2
+com/example/week07_29072/BuildConfig.java
+ com.example.week07_29072.BuildConfig

@@ -1,0 +1,68 @@
+com/example/chattingapp/Fragments/UsersFragment.java
+ com.example.chattingapp.Fragments.UsersFragment
+ com.example.chattingapp.Fragments.UsersFragment$1
+ com.example.chattingapp.Fragments.UsersFragment$2
+ com.example.chattingapp.Fragments.UsersFragment$3
+com/example/chattingapp/MessageActivity.java
+ com.example.chattingapp.MessageActivity
+ com.example.chattingapp.MessageActivity$1
+ com.example.chattingapp.MessageActivity$2
+ com.example.chattingapp.MessageActivity$3
+ com.example.chattingapp.MessageActivity$4
+ com.example.chattingapp.MessageActivity$5
+ com.example.chattingapp.MessageActivity$6
+com/example/chattingapp/ResetPasswordActivity.java
+ com.example.chattingapp.ResetPasswordActivity
+ com.example.chattingapp.ResetPasswordActivity$1
+ com.example.chattingapp.ResetPasswordActivity$1$1
+com/example/chattingapp/Model/Chat.java
+ com.example.chattingapp.Model.Chat
+com/example/chattingapp/Adapter/UserAdapter.java
+ com.example.chattingapp.Adapter.UserAdapter
+ com.example.chattingapp.Adapter.UserAdapter$1
+ com.example.chattingapp.Adapter.UserAdapter$2
+ com.example.chattingapp.Adapter.UserAdapter$ViewHolder
+com/example/chattingapp/SplashActivity.java
+ com.example.chattingapp.SplashActivity
+ com.example.chattingapp.SplashActivity$1
+com/example/chattingapp/RegisterActivity.java
+ com.example.chattingapp.RegisterActivity
+ com.example.chattingapp.RegisterActivity$1
+ com.example.chattingapp.RegisterActivity$2
+ com.example.chattingapp.RegisterActivity$2$1
+com/example/chattingapp/MainActivity.java
+ com.example.chattingapp.MainActivity
+ com.example.chattingapp.MainActivity$1
+ com.example.chattingapp.MainActivity$ViewPagerAdapter
+com/example/chattingapp/BuildConfig.java
+ com.example.chattingapp.BuildConfig
+com/example/chattingapp/Fragments/ChatsFragment.java
+ com.example.chattingapp.Fragments.ChatsFragment
+ com.example.chattingapp.Fragments.ChatsFragment$1
+ com.example.chattingapp.Fragments.ChatsFragment$2
+com/example/chattingapp/Fragments/ProfileFragment.java
+ com.example.chattingapp.Fragments.ProfileFragment
+ com.example.chattingapp.Fragments.ProfileFragment$1
+ com.example.chattingapp.Fragments.ProfileFragment$2
+ com.example.chattingapp.Fragments.ProfileFragment$3
+ com.example.chattingapp.Fragments.ProfileFragment$4
+ com.example.chattingapp.Fragments.ProfileFragment$5
+com/example/chattingapp/LoginActivity.java
+ com.example.chattingapp.LoginActivity
+ com.example.chattingapp.LoginActivity$1
+ com.example.chattingapp.LoginActivity$2
+ com.example.chattingapp.LoginActivity$2$1
+com/example/chattingapp/Model/User.java
+ com.example.chattingapp.Model.User
+com/example/chattingapp/Model/Chatlist.java
+ com.example.chattingapp.Model.Chatlist
+com/example/chattingapp/AboutUsActivity.java
+ com.example.chattingapp.AboutUsActivity
+ com.example.chattingapp.AboutUsActivity$1
+com/example/chattingapp/Adapter/MessageAdapter.java
+ com.example.chattingapp.Adapter.MessageAdapter
+ com.example.chattingapp.Adapter.MessageAdapter$ViewHolder
+com/example/chattingapp/StartActivity.java
+ com.example.chattingapp.StartActivity
+ com.example.chattingapp.StartActivity$1
+ com.example.chattingapp.StartActivity$2
