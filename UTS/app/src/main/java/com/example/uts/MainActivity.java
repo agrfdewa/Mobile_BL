@@ -16,27 +16,19 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 ;
 
-import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     public static final int REQUEST_CODE = 1;
     static ArrayList<MusicFiles> musicFiles;
+    static boolean shuffleBoolean = false, repeatBoolean = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter((getSupportFragmentManager()));
 
         viewPagerAdapter.addFragment(new MusicFragment(), "Songs");
-        viewPagerAdapter.addFragment(new AlbumFragment(), "Album");
+        viewPagerAdapter.addFragment(new AlbumFragment(), "Dev Profil");
         viewPager.setAdapter((viewPagerAdapter));
         tabLayout.setupWithViewPager(viewPager);
     }
