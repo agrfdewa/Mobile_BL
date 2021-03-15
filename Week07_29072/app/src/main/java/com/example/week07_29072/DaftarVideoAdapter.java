@@ -1,4 +1,4 @@
-package week7.cindyaristawati.umn.ac.id;
+package com.example.week07_29072;
 
 import android.content.Context;
 import android.content.Intent;

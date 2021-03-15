@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="week7.cindyaristawati.umn.ac.id">
-
-    <uses-feature
-        android:name="android.hardware.camera"
+    package="com.example.week07_29072">
+    <uses-feature android:name="android.hardware.camera"
         android:required="true" />
 
     <application
@@ -12,9 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.W07_28897">
-        <activity android:name=".VideoActivity"></activity>
-        <activity android:name=".CameraActivity" />
+        android:theme="@style/Theme.Week07_29072">
+        <activity android:name=".CameraActivity"/>
+        <activity android:name=".VideoActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +22,5 @@
         </activity>
         <activity android:name=".DetilVideoActivity"/>
     </application>
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
 
 </manifest>

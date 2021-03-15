@@ -1,4 +1,4 @@
-package week7.cindyaristawati.umn.ac.id;
+package com.example.week07_29072;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("week7.cindyaristawati.umn.ac.id", appContext.getPackageName());
+        assertEquals("com.example.week07_29072", appContext.getPackageName());
     }
 }

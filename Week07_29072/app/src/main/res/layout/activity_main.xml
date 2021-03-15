@@ -22,17 +22,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tutorial_kamera"
-            android:onClick="ToKamera"
             android:textColor="@color/black"
             android:backgroundTint="@color/grey"
             />
 
         <Button
-            android:id="@+id/Drawable"
+            android:id="@+id/video"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tutorial_video"
-            android:onClick="ToVideo"
             android:textColor="@color/black"
             android:backgroundTint="@color/grey"
             android:layout_marginTop="15dp"
