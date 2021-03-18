@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileactivity"
+    android:background="@drawable/gredient_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:id="@+id/back"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="75sp">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="NIM       : 00000029072"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Nama    : AG Ryan F Dewa"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Kelas     : BL"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="65sp">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="REFERENSI   :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Youtube    :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://youtu.be/bsXaM4G4D_w?list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Website     :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://elearning.umn.ac.id/course/view.php?id=5801"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Teman     :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="inherit"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="inherit"/>
+    </LinearLayout>
+
+</LinearLayout>

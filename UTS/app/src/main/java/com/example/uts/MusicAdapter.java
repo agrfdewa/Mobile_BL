@@ -2,9 +2,7 @@ package com.example.uts;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.MediaMetadata;
 import android.media.MediaMetadataRetriever;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

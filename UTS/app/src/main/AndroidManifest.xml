@@ -11,8 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS">
-        <activity android:name=".MusicPlayer"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".profileactivty2"/>
+        <activity android:name=".loginActivity" />
+        <activity android:name=".profileactivity" />
+        <activity android:name=".MusicPlayer" />
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

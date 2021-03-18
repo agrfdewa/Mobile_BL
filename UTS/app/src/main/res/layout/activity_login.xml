@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gredient_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:id="@+id/back"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_music_black">
+        <ImageView
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_music_black"
+            android:background="@drawable/ic_baseline_library_music_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email:"
+            android:id="@+id/tvEmail"
+            android:textColor="#020202" />
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_below="@+id/tvEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPassword"
+            android:layout_below="@+id/inputEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Password:"
+            android:textColor="#010101" />
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_below="@+id/tvPassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+        <CheckBox
+            android:id="@+id/showPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Password" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_below="@+id/inputPassword"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

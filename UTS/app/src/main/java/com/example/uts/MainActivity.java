@@ -2,6 +2,7 @@ package com.example.uts;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -12,12 +13,17 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.KeyEvent;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.material.tabs.TabLayout;
 ;
@@ -34,7 +40,52 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button btnLogout = findViewById(R.id.logout);
+        Button btnProfile = findViewById(R.id.profile);
+
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Home.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, profileactivty2.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ShowDialog();
         permission();
+    }
+
+    private void ShowDialog(){
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Selamat Datang")
+                .setMessage("Aloisius Gonzaga Ryan Fortunatus Dewa \n 00000029072")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                })
+                .setCancelable(false);
+        alert.show();
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+            ShowDialog();
+        }
+        return true;
     }
 
     private void permission(){
@@ -68,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter((getSupportFragmentManager()));
 
         viewPagerAdapter.addFragment(new MusicFragment(), "Songs");
-        viewPagerAdapter.addFragment(new AlbumFragment(), "Dev Profil");
+//        viewPagerAdapter.addFragment(new AlbumFragment(), "Dev Profil");
         viewPager.setAdapter((viewPagerAdapter));
         tabLayout.setupWithViewPager(viewPager);
     }
