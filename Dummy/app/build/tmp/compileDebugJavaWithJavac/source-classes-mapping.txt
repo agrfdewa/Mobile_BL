@@ -1,0 +1,6 @@
+com/example/dummy/MainActivity.java
+ com.example.dummy.MainActivity
+ com.example.dummy.MainActivity$1
+ com.example.dummy.MainActivity$1$1
+com/example/dummy/BuildConfig.java
+ com.example.dummy.BuildConfig
