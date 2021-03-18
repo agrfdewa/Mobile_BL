@@ -37,7 +37,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MyViewHolder
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.file_name.setText(mFiles.get(position).getTitle());
         byte[] image = getAlbumArt(mFiles.get(position).getPath());
-        if(image != null){
+        if(image == null){
             Glide.with(mContext).asBitmap()
                     .load(image)
                     .into(holder.album_art);
