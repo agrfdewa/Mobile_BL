@@ -1,0 +1,54 @@
+com/example/uts/Home.java
+ com.example.uts.Home
+ com.example.uts.Home$1
+ com.example.uts.Home$2
+com/example/uts/loginActivity.java
+ com.example.uts.loginActivity
+ com.example.uts.loginActivity$1
+ com.example.uts.loginActivity$2
+ com.example.uts.loginActivity$3
+com/example/uts/MusicAdapter.java
+ com.example.uts.MusicAdapter
+ com.example.uts.MusicAdapter$1
+ com.example.uts.MusicAdapter$MyViewHolder
+com/example/uts/MusicFragment.java
+ com.example.uts.MusicFragment
+com/example/uts/MusicPlayer.java
+ com.example.uts.MusicPlayer
+ com.example.uts.MusicPlayer$1
+ com.example.uts.MusicPlayer$10
+ com.example.uts.MusicPlayer$11
+ com.example.uts.MusicPlayer$11$1
+ com.example.uts.MusicPlayer$12
+ com.example.uts.MusicPlayer$13
+ com.example.uts.MusicPlayer$14
+ com.example.uts.MusicPlayer$15
+ com.example.uts.MusicPlayer$15$1
+ com.example.uts.MusicPlayer$2
+ com.example.uts.MusicPlayer$3
+ com.example.uts.MusicPlayer$4
+ com.example.uts.MusicPlayer$5
+ com.example.uts.MusicPlayer$5$1
+ com.example.uts.MusicPlayer$6
+ com.example.uts.MusicPlayer$7
+ com.example.uts.MusicPlayer$8
+ com.example.uts.MusicPlayer$8$1
+ com.example.uts.MusicPlayer$9
+com/example/uts/profileactivty2.java
+ com.example.uts.profileactivty2
+ com.example.uts.profileactivty2$1
+com/example/uts/MainActivity.java
+ com.example.uts.MainActivity
+ com.example.uts.MainActivity$1
+ com.example.uts.MainActivity$2
+ com.example.uts.MainActivity$3
+ com.example.uts.MainActivity$ViewPagerAdapter
+com/example/uts/AlbumFragment.java
+ com.example.uts.AlbumFragment
+com/example/uts/profileactivity.java
+ com.example.uts.profileactivity
+ com.example.uts.profileactivity$1
+com/example/uts/BuildConfig.java
+ com.example.uts.BuildConfig
+com/example/uts/MusicFiles.java
+ com.example.uts.MusicFiles
