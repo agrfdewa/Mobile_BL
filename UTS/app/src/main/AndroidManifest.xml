@@ -3,24 +3,22 @@
     package="com.example.uts">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UTS">
+        android:theme="@style/Theme.UTS"
+        android:requestLegacyExternalStorage="true">
         <activity android:name=".profileactivty2"/>
         <activity android:name=".loginActivity" />
         <activity android:name=".profileactivity" />
         <activity android:name=".MusicPlayer" />
         <activity android:name=".MainActivity" />
-
         <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
