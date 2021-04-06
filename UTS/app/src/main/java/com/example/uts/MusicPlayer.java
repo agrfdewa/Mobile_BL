@@ -85,6 +85,7 @@ public class MusicPlayer extends AppCompatActivity implements MediaPlayer.OnComp
                 handler.postDelayed(this, 1000);
             }
         });
+
         shuffleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

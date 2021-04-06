@@ -2,6 +2,7 @@ package com.example.week03_29072;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,6 +64,23 @@ public class DaftarKataAdapter extends RecyclerView.Adapter<DaftarKataAdapter.Ka
             mDaftarKata.set(mPosition, element + " pernah diklik ");
             mAdapter.notifyDataSetChanged();
             Toast.makeText(v.getContext(),element +" dipilih", Toast.LENGTH_LONG).show();
+
         }
     }
+
+    btnShare.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+
+             // Perintah Intent Implicit untuk share ke sosmed
+        Intent intent = new Intent(Intent.ACTION_SEND);
+
+              // Membawa data / pesan yang ingin dishare
+        intent.putExtra(intent.EXTRA_TEXT,"Hallo saya share ke sosial media");
+        intent.setType("text/plain");
+
+              // Menjalankan perintah Intent Implicit
+        startActivity(Intent.createChooser(intent,"Share to :"));
+    }
+});
 }
